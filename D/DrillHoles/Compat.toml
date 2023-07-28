@@ -6,20 +6,22 @@ CSV = "0.5-0.8"
 DataFrames = ["0.18", "0.20-0.22"]
 StatsBase = "0.30-0.33"
 
-["0.1.4-0"]
-DataFrames = "1.1.0-1"
-
 ["0.1.4-0.1"]
 CSV = "0.8"
 StatsBase = "0.31-0.33"
 
+["0.1.4-1"]
+DataFrames = "1.1.0-1"
+
 ["0.2-0"]
-ScientificTypes = "3"
-Tables = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.2-0.4.0"]
 Interpolations = "0.13"
+
+["0.2-1"]
+ScientificTypes = "3"
+Tables = "1.6.0-1"
 
 ["0.2.0"]
 TableTransforms = "0.4"
@@ -30,7 +32,7 @@ TableTransforms = "1"
 ["0.4-0.4.1"]
 Meshes = "0.24"
 
-["0.4.1-0"]
+["0.4.1-1"]
 Interpolations = "0.14"
 
 ["0.4.2"]
@@ -42,7 +44,7 @@ Meshes = "0.24-0.26"
 ["0.4.4"]
 Meshes = "0.27"
 
-["0.4.4-0"]
+["0.4.4-1"]
 TableTransforms = "1.9.0-1"
 
 ["0.4.5"]
@@ -59,3 +61,7 @@ Meshes = "0.31"
 
 ["0.4.9-0"]
 Meshes = "0.31-0.32"
+
+[1]
+Meshes = "0.33"
+julia = "1.9.0-1"
